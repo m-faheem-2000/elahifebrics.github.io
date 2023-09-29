@@ -1,0 +1,328 @@
+/* * */
+.text{
+    text-decoration: none!important;
+    transition: 0.5s all;
+}
+.text-align{
+    text-align: justify;
+    word-break: break-all;
+}
+/* /.* */
+
+/* colors */
+.color-primary{
+    color: #1b0db4!important;
+}
+.color-secondary{
+    color: #0bb9b6!important;
+}
+.color-white{
+    color: white!important;
+}
+.color-light{
+    color: #9d9d9d;
+}
+.color-black{
+    color: black!important;
+}
+/* /.colors */
+
+/* background colors */
+.gradient-background{
+    background-image: linear-gradient(to bottom right,#1b0db4,#0bb9b6);
+}
+.bgColor-primary{
+    background-color: #1b0db4!important;
+}
+.bgColor-secondary{
+    background-color: #0bb9b6!important;
+}
+.bgColor-dark{
+    background-color: #191919!important;
+}
+.bgColor-light{
+    background-color: #f4f4f4;
+}
+/* /.background colors */
+
+/* background images */
+.service-background-1{
+    background-image: url("../images/header-backgrounds/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.service-background-2{
+    background-image: url("../images/header-backgrounds/2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.service-background-3{
+    background-image: url("../images/header-backgrounds/3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.service-background-4{
+    background-image: url("../images/header-backgrounds/4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* /.background images */
+
+/* text size */
+.text-xxl{
+    font-size: 54px;
+}
+.text-xl{
+    font-size: 40px;
+}
+.text-lg{
+    font-size: 30px;
+}
+.text-md{
+    font-size: 22px;
+}
+.text-sm{
+    font-size: 18px;
+}
+.text-xs{
+    font-size: 16px;
+}
+.text-xxs{
+    font-size: 14px;
+}
+/* /.text size */
+
+/* text weight */
+.text-800{
+    font-weight: 800;
+}
+.text-700{
+    font-weight: 700;
+}
+.text-600{
+    font-weight: 600;
+}
+.text-500{
+    font-weight: 500;
+}
+.text-400{
+    font-weight: 400;
+}
+.text-300{
+    font-weight: 300;
+}
+.text-200{
+    font-weight: 200;
+}
+/* /.text weight */
+
+/* button */
+.button{
+    text-decoration: none!important;
+    font-weight: 500;
+    transition: 0.5s all;
+    padding: 15px 30px;
+}
+.button-white{
+    background-color: white!important;
+}
+.button-white:hover{
+    background-color: #1b0db4!important;
+    color: white!important;
+}
+.button-primary{
+    background-image: linear-gradient(to bottom left,#1b0db4,#0bb9b6);
+}
+/* /.button */
+
+/* top section */
+.icon-border > i{
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.3s all;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none!important;
+}
+.social-links > a{
+    transition: 0.3s all;
+    text-decoration: none!important;
+    color: #0bb9b6!important;
+}
+/* /.top section */
+
+/* header */
+.header-link > a{
+    color: #0bb9b6;
+    font-weight: 500;
+    text-decoration: none!important;
+}
+/* /.header */
+
+/* navbar */
+.active-link{
+    color: #0bb9b6!important;
+}
+.nav-link{
+    color: black;
+    font-weight: 500!important;
+    transition: 0.5s all;
+}
+.nav-link:hover{
+    color: #0bb9b6!important;
+}
+/* /.navbar */
+
+/* working progress */
+.counter-background{
+    background-color: #f8f8f8;
+    border-radius: 200px 0 0 0;
+}
+.divider{
+    width: 60px!important;
+    border: 2px solid #0bb9b6;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+/* /.working progress */
+
+/* our department */
+.department-background{
+    background-color: black;
+    border-radius: 0 0 200px 0;
+}
+.parent-div{
+    position: relative;
+    overflow: hidden;
+}
+.child-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 20px;
+    background-image: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0) 90%);
+}
+.parent-div > a:hover .child-div > p{
+    color: #0bb9b6!important;
+}
+/* /.our department */
+
+/* footer */
+.footer-link > li > a{
+    text-decoration: none!important;
+    color: white!important;
+    transition: 0.5s all;
+}
+.footer-link > li > a:hover{
+    text-decoration: underline!important;
+}
+/* /.footer */
+
+/* owl-carousel */
+.wrapper .owl-dot.active span{
+    width: 30px !important;
+    background-color: #0bb9b6!important;
+}
+.wrapper .owl-dot:hover span{
+    background-color: #0bb9b6!important;
+}
+.wrapper .owl-prev,.wrapper .owl-next{
+    position: absolute;
+    top: 38%;
+    background-color: white!important;
+    height: 30px;
+    width: 30px;
+    border-radius: 100% !important;
+}
+.wrapper .owl-prev:hover,.wrapper .owl-next:hover{
+    color: white!important;
+    background-color: black!important;
+}
+.wrapper .owl-prev{
+    left: 0;
+    color: #0bb9b6!important;
+}
+.wrapper .owl-next{
+    right: 0;
+    color: #0bb9b6!important;
+}
+/* owl-carousel */
+
+/* tabs */
+.nav-pills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-pills > li > a {
+    text-decoration: none!important;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-pills > li > a:hover {
+    color: #0bb9b6;
+    border-bottom: 2px solid #0bb9b6;
+}
+.active-tab{
+    color: #0bb9b6!important;
+    border-bottom: 2px solid #0bb9b6;
+}
+
+#exTab1 .tab-content {
+    color : black;
+    /*padding : 5px 15px;*/
+}
+/* /.tabs */
+
+/* black & white iframe (map) */
+.map{
+    /*-webkit-filter: grayscale(100%);*/
+    /*-moz-filter: grayscale(100%);*/
+    /*-ms-filter: grayscale(100%);*/
+    /*-o-filter: grayscale(100%);*/
+    /*filter: grayscale(100%);*/
+}
+/* remove padding bottom from iframe (map) */
+iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 0;
+    display: block;
+}
+
+/* scroll top */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    border: 2px solid #0bb9b6;
+    outline: none;
+    background-color: black;
+    color: #0bb9b6;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+/* /.scroll top */
